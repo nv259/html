@@ -1,29 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 .box::before {
-    content: ""; /* must exist*/
+    content: "box::before"; /* must exist*/
     display: block;
     width: 50%;
     height: 100px;
     background-color: blue;
+
+    border: 10px dashed #333;
+
+    margin: 10px 20px;
 }
 
 .box::after {
-    content: ""; /* must exist*/
+    margin-top: 20px;
+    content: "box::after"; /* must exist*/
     display: block;
-    width: 50%;
+    width: 100px;
     height: 100px;
     background-color: red;
-}
+    padding: 10px 20px 15px 5px;
 
-h1::first-letter {
-    font-size: 100px;
-    color: gold;
-}
-
-h1::first-line {
-    font-size: 60px;
-    color: gold;
-}
-
-h1::selection {
-    color: pink;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: white;
 }
