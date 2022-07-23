@@ -1,28 +1,26 @@
-html {
-    font-size: 100%
-}
-
-ul {
-    font: bold;
-    color: gold;
-    font-size: 2rem;
-}
-
-ul li {
-    color: black;
-}
-
 .box {
-    width: calc((100px + 5px) * 2 + 50%);
+    width: 50%;
     height: 100px;
-    background-color: rgba(206, 4, 139, 0.5);
-    /* a: alpha, transparent color */
+    background-color: blanchedalmond;
 }
 
-.box::after {
-    content: attr(data-title);
+h1:hover {
+    font: italic;
+    color: green;
 }
 
-a::after {
-    content: "(" attr(href) ")";
+li:first-child {
+    color: pink;
+}
+
+li:last-child {
+    color: blue;
+}
+
+.box:hover {
+    background-color: black;
+}
+
+.box:active {
+    background-color: brown;
 }
