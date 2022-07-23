@@ -1,26 +1,29 @@
-.box {
+.box::before {
+    content: ""; /* must exist*/
+    display: block;
     width: 50%;
     height: 100px;
-    background-color: blanchedalmond;
+    background-color: blue;
 }
 
-h1:hover {
-    font: italic;
-    color: green;
+.box::after {
+    content: ""; /* must exist*/
+    display: block;
+    width: 50%;
+    height: 100px;
+    background-color: red;
 }
 
-li:first-child {
+h1::first-letter {
+    font-size: 100px;
+    color: gold;
+}
+
+h1::first-line {
+    font-size: 60px;
+    color: gold;
+}
+
+h1::selection {
     color: pink;
-}
-
-li:last-child {
-    color: blue;
-}
-
-.box:hover {
-    background-color: black;
-}
-
-.box:active {
-    background-color: brown;
 }
