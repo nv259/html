@@ -1,29 +1,32 @@
-* {
-    margin: 0px;
-    padding: 0px;
+div {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image:   url(https://www.intel.vn/content/dam/www/public/us/en/images/partner-alliance/rwd/icons/a1145752-cloud-specialist-icon-rwd.png.rendition.intel.web.864.486.png),
+                        url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+
+    border: 20px dashed gray;
+    padding: 50px;
+    box-sizing: border-box;
+
+    background-origin: content-box;
 }
-.box::before {
-    content: "box::before"; /* must exist*/
-    display: block;
-    width: 50%;
-    height: 100px;
-    background-color: blue;
 
-    border: 10px dashed #333;
-
-    margin: 10px 20px;
+h1 {
+    width: 100vw;
+    height: 100vh;
+    background-image: 
+    linear-gradient(0, rgba(232, 28, 28, 0.5), rgb(19, 69, 219, 0.5)),
+    url(https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: top center;
 }
 
-.box::after {
-    margin-top: 20px;
-    content: "box::after"; /* must exist*/
-    display: block;
+h2 {
     width: 100px;
-    height: 100px;
-    background-color: red;
-    padding: 10px 20px 15px 5px;
-
-    border-width: 10px;
-    border-style: dashed;
-    border-color: white;
+    height: 100vh;
+    background:rgb(19, 69, 219, 0.5) no-repeat center / cover; 
 }
