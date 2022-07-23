@@ -1,8 +1,30 @@
-li {
-    color: black;
+.box {
+    width: 100px;
+    height: 100px;
+    color: aqua;
+    background-color: rgb(18, 110, 191);
 }
 
-* {
-    color: rebeccapurple;
+.percent_box {
+    width: 50%;
+    height: 100px;
+    background-color: bisque;
 }
 
+html {
+    font-size: 1000px;
+}
+
+div {
+    font-size: 20px; 
+    /* html */
+}
+
+h1 {
+    font-size: 4em;
+    /* nearest tag that includes h1 and has font-size */
+}
+
+/* 
+    vw, vh - viewport width, viewport height
+*/
