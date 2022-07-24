@@ -8,6 +8,10 @@ html {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.clear {
+    clear: both;
+}
+
 #main {
     min-height: 2000px;
 }
@@ -31,6 +35,59 @@ html {
 
 #content {
 
+}
+
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .content-section .section-heading,
+#content .content-section .section-sub-heading{
+    text-align: center;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    margin: 15px 0;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about {
+    text-align: justify;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+#content .member-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    margin: 15px;
+    width: 152px;
+    /* text-align: center; */
+    border-radius: 4px;
+}
+
+#content .members-list {
+    margin: 32px 0;
+    /* overflow: hidden; */
 }
 
 #footer {
@@ -123,3 +180,4 @@ html {
     font-size: 15px;
     margin-top: 25px;
 }
+
