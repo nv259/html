@@ -13,6 +13,8 @@ html {
 }
 
 #header {
+    position: fixed;
+    width: 100%;
     height: 46px;
     background-color: #000 !important;
 }
@@ -28,6 +30,10 @@ html {
 
 #footer {
 
+}
+
+#nav {
+    display: inline-block;
 }
 
 #nav li a {
@@ -71,4 +77,24 @@ html {
  
 #nav li:hover .subnav {
     display: block;
+}
+
+#nav .nav-arrow-down {
+    font-size: 12px;
+}
+
+#header .search-button .search-icon {
+    line-height: 46px;
+    padding: 0 21px;
+}
+
+#header .search-button:hover {
+    background-color: rgb(255, 68, 0);
+    cursor: pointer;
+}
+
+#header .search-button {
+    color: #fff;
+    font-size: 20px;
+    float: right;
 }
