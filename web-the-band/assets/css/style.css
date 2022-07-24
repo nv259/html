@@ -13,8 +13,10 @@ html {
 }
 
 #header {
+    top: 0;
+    left: 0;
+    right: 0;
     position: fixed;
-    width: 100%;
     height: 46px;
     background-color: #000 !important;
 }
@@ -22,6 +24,7 @@ html {
 #slider {
     min-height: 500px;
     background-color: white;
+    margin-top: 46px;
 }
 
 #content {
