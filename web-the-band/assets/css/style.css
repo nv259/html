@@ -374,6 +374,10 @@ html {
     bottom: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.3);
+    /* display: flex; */    
+    align-items: center;
+    justify-content: center;
+    display: none;
 }
 
 .modal-container {
@@ -381,12 +385,6 @@ html {
     width: 75%;
     min-height: 200px;
     position: relative;
-}
-
-.modal {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .modal-close {
@@ -448,6 +446,12 @@ html {
     font-size: 16px;
 }
 
+.modal-container #buy-tickets:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #ccc;
+}
+
 .modal-container #buy-tickets .ti-check {
     font-weight: 700;
 }
@@ -456,4 +460,12 @@ html {
     float: right;
     padding: 16px;
     margin-bottom: 16px;
+}
+
+.modal-help a {
+    color: rgb(72, 72, 255);
+}
+
+.open {
+    display: flex !important;
 }
