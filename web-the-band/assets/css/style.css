@@ -29,12 +29,13 @@ html {
     height: 46px;
     background-color: #000 !important;
     z-index: 1;
+    overflow: hidden;
 }
 
 #slider {
     margin-top: 46px;
     padding-top: 50%;
-    background: url('/web-the-band/assets/img/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider1.jpg') top center / cover no-repeat;
     position: relative;
 }
 
@@ -44,6 +45,7 @@ html {
 
 #content .content-section {
     width: 800px;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 64px 0;
@@ -332,16 +334,19 @@ html {
     font-size: 12px;
 }
 
+#header .mobile-menu-btn .menu-icon,
 #header .search-button .search-icon {
     line-height: 46px;
     padding: 0 21px;
 }
 
+#header .mobile-menu-btn:hover,
 #header .search-button:hover {
     background-color: rgb(255, 68, 0);
     cursor: pointer;
 }
 
+#header .mobile-menu-btn,
 #header .search-button {
     color: #fff;
     font-size: 20px;
@@ -482,4 +487,9 @@ html {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+.footer-ending i:hover {
+    opacity: 0.4;
+    cursor: pointer;
 }
